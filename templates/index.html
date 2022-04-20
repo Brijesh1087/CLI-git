@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>python hack</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<h2>bash shell</h2>
+	<form action="/shell" method="post">
+		<input type="search" id="input" name="data">
+		<br>
+		<!-- <input type="submit" id="btn" value="shell"> -->
+	</form>
+	<br>
+	<div class="output">
+		<b class="{{classs}}">{{ data }}</b>
+			</div>
+</body>
+</html>
